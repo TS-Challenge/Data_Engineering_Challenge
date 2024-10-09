@@ -1,9 +1,18 @@
-# Data_Engineering_Challenge
+# Data Engineering Challenge
 
 An implementation of core data engineering concepts using Python and SQL, with GitHub Codespaces integration.
 
 ## Objective
-Your task is to complete the ETL (Extract, Transform, Load) pipeline. You'll work on extracting data from a CSV, transforming it, and loading it into a SQLite database.
+In this challenge, you will play the role of a Data Engineer working for a retail company that deals with large volumes of sales data. The company is facing issues with efficiently processing and storing this data. You are tasked with developing an ETL (Extract, Transform, Load) pipeline to help the company organize their raw sales data into a structured database for reporting and analysis.
+
+Your job is to build a pipeline that:
+1. **Extracts data** from raw CSV files containing customer and transaction information.
+2. **Transforms the data** by cleaning it, handling missing or inconsistent entries, and performing basic feature engineering (e.g., calculating new metrics or formatting data).
+3. **Loads the cleaned data** into a structured SQLite database, ready for further analysis by the company's data science team.
+
+This ETL pipeline will automate the process, reducing manual intervention and ensuring the data is always in a ready-to-use format for business insights and reporting. The final product will be a pipeline that can be run automatically within a GitHub Codespaces environment, providing a seamless workflow for data extraction, cleaning, and loading into a database.
+
+---
 
 ## Getting Started
 1. **Fork this project** to create your own copy of the repository.
